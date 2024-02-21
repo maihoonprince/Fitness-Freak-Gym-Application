@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html, body{
+    width: 100%;
+    height: 100%; 
+}
+
+main{
+    height: 100vh;;
+    width: 100vw;
+    margin: 0;
+    padding: 0;    
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+
+.logo img{
+    height: 85px;
+    width: 115px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* background-color: aquamarine; */
+}
+
+.pages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 90px;
+    margin-right: 50px;
+
+}
+
+.pages li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.pages li a{
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a:hover {
+    cursor: pointer;
+    color: rgb(192, 160, 0);
+}
+
+.pages i{
+    color: white;
+    font-size: 20px;
+}
+.pages i:hover{
+    cursor: pointer;
+    color: rgb(192, 160, 0);
+}
+
+
+
+/* <-----------Page 1--------> */
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.page1 h1{ 
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.page1 h2{
+    font-size: 150px;
+    letter-spacing: 30px;
+    
+}
+
+.page1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    word-spacing: 20px;
+    color: rgb(207, 207, 107);
+}
+
+
+
+/* <-----------Page 2--------> */
+
+.page2{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+}
+
+.welcome-left{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.video video {
+    width: 100%;
+    height: auto;
+}
+
+.image{
+    display: flex;
+}
+
+.image img{
+    height: 30%;
+    width: 30%;
+    background-size: cover;
+}
+
+.welcome-right{
+    height: 100%;
+    width: 40%;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; */
+}
+
+.welcome-right h1{
+    margin-top: 20px;
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.welcome-right h1 span{
+    font-size: 75px;
+    color: rgb(205, 172, 4);
+}
+
+.welcome-right p{
+    font-size: 16px;
+    color: rgb(194, 192, 192);
+    /* background-color: chartreuse; */
+    margin-top: 20px;
+    padding: 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.welcome-right button{
+    color: white;
+    margin-top: 50px;
+    padding: 12px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(23, 23, 23);
+    border-radius: 30px;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+
+.welcome-right button:hover{
+    cursor: pointer;
+    background-color: rgb(192, 160, 0);
+
+}
+
+/* <-----------Page3--------> */
+
+.page3{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(122, 134, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.page3 h1{
+    font-size: 30px;
+}
+
+.motivation{
+    display: flex;
+}
+
+
+
+/* <-----------Trainer--------> */
+
+.trainer{
+    height: 100vh;
+    width: 100%;
+    background-color: burlywood;
+}
+
+
+
+/* <-----------Gym Tour--------> */
+
+.gymTour{
+    height: 100vh;
+    width: 100%;
+    background-color: chartreuse;
+}
+
+
+
+/* <-----------Gallery--------> */
+
+.gallery{
+    height: 100vh;
+    width: 100%;
+    background-color: chocolate;
+}
+
+
+
+
+/* <-----------Footer--------> */
+
+.footer{
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+}
+

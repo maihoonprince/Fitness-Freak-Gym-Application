@@ -20,7 +20,8 @@ main{
 .nav{
     height: 100px;
     width: 100%;
-    /* background-color: aquamarine; */
+    /* background-color: rgb(62, 62, 62);
+    opacity: 0.6; */
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -258,7 +259,7 @@ main{
     padding: 20px;
     height: 50vh;
     width: 100%;
-    background-color: rgb(77, 77, 77);
+    /* background-color: rgb(61, 61, 61); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -286,16 +287,19 @@ main{
 .trainer1 img{
     height: 250px;
     width: 400px;
-    padding-right: 100px;
+    padding-top: 20px;
 }
 
 .trainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.trainer1 p{
+/* .trainer1 p{
     font-size: 30px;
     line-height: 50px;
-}
+} */
 
 /* <-----------Gym Tour--------> */
 
@@ -385,11 +389,11 @@ main{
 
 /* <-----------Gallery--------> */
 
-.gallery{
+/* .gallery{
     height: 100vh;
     width: 100%;
     background-color: chocolate;
-}
+} */
 
 
 
@@ -397,8 +401,79 @@ main{
 /* <-----------Footer--------> */
 
 .footer{
-    height: 40vh;
+    height: 45vh;
     width: 100%;
     background-color: black;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    
 }
 
+.gym-address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 450px;
+    /* background-color: aquamarine; */
+    padding: 40px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.navigation h3{
+    
+}
+
+.navigation h3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.navigation h3 a:hover{
+    cursor: pointer;
+    color: rgb(189, 183, 2);
+}
+
+.address{
+    /* background-color: rgb(60, 84, 35); */
+    padding: 20px;
+}
+
+.address h1{
+    font-size: 40px;
+}
+
+.address p{
+    font-size: 18px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+.Prince{
+    
+}
+
+.Prince h2{
+    word-spacing: 20px;
+}
+
+.Prince h2 a{
+    text-decoration: none;
+    color: rgb(161, 218, 137);
+}
+
+.Prince h2 a:hover{
+    cursor: pointer;
+    color: rgb(185, 111, 0);
+}

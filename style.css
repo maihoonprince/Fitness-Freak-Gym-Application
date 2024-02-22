@@ -203,22 +203,51 @@ main{
 /* <-----------Page3--------> */
 
 .page3{
-    height: 70vh;
+    height: 30vh;
     width: 100%;
-    background-color: rgb(122, 134, 71);
+    /* background-color: rgb(122, 134, 71); */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-
+    padding: 50px;
+    line-height: 30px;
 }
 
 .page3 h1{
-    font-size: 30px;
+    font-weight: 800;
+    font-size: 60px;
+    /* background-color: blueviolet; */
+    margin-bottom: 40px;
+}
+
+.page3 h1:hover{
+    cursor: pointer;
+    color: grey;
 }
 
 .motivation{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+.motivation h2{
+    /* background-color: rgb(60, 55, 64); */
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 22px;
+    border: 2px solid black;
+    
+}
+
+.motivation h2:hover{
+    cursor: pointer;
+    background-color: rgb(205, 184, 50);
+    color: white;
+    border: 2px solid white;
 }
 
 
@@ -226,22 +255,133 @@ main{
 /* <-----------Trainer--------> */
 
 .trainer{
-    height: 100vh;
+    padding: 20px;
+    height: 50vh;
     width: 100%;
-    background-color: burlywood;
+    background-color: rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.trainer h1{
+    align-items: center;
+    font-size: 40px;
+}
 
+.trainer h1:hover{
+    cursor: pointer;
+    color: gray;
+    border-bottom: 2px solid black;
+}
+
+.trainer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.trainer1 img{
+    height: 250px;
+    width: 400px;
+    padding-right: 100px;
+}
+
+.trainer1 {
+}
+
+.trainer1 p{
+    font-size: 30px;
+    line-height: 50px;
+}
 
 /* <-----------Gym Tour--------> */
 
 .gymTour{
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    background-color: chartreuse;
+    background-color: rgb(36, 55, 17);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
+.gymTour h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
 
+.tour-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.row1 img{
+    height:300px;
+    width: 500px;
+}
+
+.row1 video{
+
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.row2 img{
+    height: 300px;
+    width: 500px;
+}
+
+.row2 video{
+
+}
+
+.row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;  
+}
+
+.row3 img{
+    height: 300px;
+    width: 500px;
+}
+
+.shorts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.shorts video {
+    width: 20%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Adjust margin to create space between videos */
+  }
 
 /* <-----------Gallery--------> */
 

@@ -1,23 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
 }
 
-html, body{
+html,
+body {
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
 
-main{
-    height: 100vh;;
+main {
+    height: 100vh;
+    ;
     width: 100vw;
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 
-.nav{
+.nav {
     height: 100px;
     width: 100%;
     /* background-color: rgb(62, 62, 62);
@@ -29,7 +31,7 @@ main{
     gap: 7px;
 }
 
-.logo img{
+.logo img {
     height: 85px;
     width: 115px;
     margin-top: 10px;
@@ -37,7 +39,7 @@ main{
     /* background-color: aquamarine; */
 }
 
-.pages{
+.pages {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -46,13 +48,13 @@ main{
 
 }
 
-.pages li{
+.pages li {
     display: inline-block;
     list-style: none;
     padding-right: 20px;
 }
 
-.pages li a{
+.pages li a {
     font-size: 22px;
     font-weight: 500;
     text-decoration: none;
@@ -64,20 +66,25 @@ main{
     color: rgb(192, 160, 0);
 }
 
-.pages i{
+.pages i {
     color: white;
     font-size: 20px;
 }
-.pages i:hover{
+
+.pages i:hover {
     cursor: pointer;
     color: rgb(192, 160, 0);
+}
+
+#menu {
+    display: none;
 }
 
 
 
 /* <-----------Page 1--------> */
 
-.page1{
+.page1 {
     height: 100vh;
     width: 100%;
     background-image: url('https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
@@ -90,18 +97,18 @@ main{
     color: white;
 }
 
-.page1 h1{ 
+.page1 h1 {
     font-size: 100px;
     text-transform: uppercase;
 }
 
-.page1 h2{
+.page1 h2 {
     font-size: 150px;
     letter-spacing: 30px;
-    
+
 }
 
-.page1 h3{
+.page1 h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     word-spacing: 20px;
@@ -112,14 +119,15 @@ main{
 
 /* <-----------Page 2--------> */
 
-.page2{
+.page2 {
     height: 80vh;
     width: 100%;
     background-color: rgb(37, 37, 37);
     display: flex;
+
 }
 
-.welcome-left{
+.welcome-left {
     height: 100%;
     width: 60%;
     display: flex;
@@ -127,7 +135,7 @@ main{
     flex-direction: column;
 }
 
-.video{
+.video {
     width: 80%;
     height: auto;
     margin: auto;
@@ -138,17 +146,17 @@ main{
     height: auto;
 }
 
-.image{
+.image {
     display: flex;
 }
 
-.image img{
+.image img {
     height: 30%;
     width: 30%;
     background-size: cover;
 }
 
-.welcome-right{
+.welcome-right {
     height: 100%;
     width: 40%;
     color: black;
@@ -160,7 +168,7 @@ main{
     align-items: center; */
 }
 
-.welcome-right h1{
+.welcome-right h1 {
     margin-top: 20px;
     padding-top: 40px;
     font-family: sans-serif;
@@ -168,12 +176,12 @@ main{
     font-weight: 900;
 }
 
-.welcome-right h1 span{
+.welcome-right h1 span {
     font-size: 75px;
     color: rgb(205, 172, 4);
 }
 
-.welcome-right p{
+.welcome-right p {
     font-size: 16px;
     color: rgb(194, 192, 192);
     /* background-color: chartreuse; */
@@ -183,7 +191,7 @@ main{
     font-weight: 400;
 }
 
-.welcome-right button{
+.welcome-right button {
     color: white;
     margin-top: 50px;
     padding: 12px 10px;
@@ -195,7 +203,7 @@ main{
     border: 2px solid black;
 }
 
-.welcome-right button:hover{
+.welcome-right button:hover {
     cursor: pointer;
     background-color: rgb(192, 160, 0);
 
@@ -203,10 +211,10 @@ main{
 
 /* <-----------Page3--------> */
 
-.page3{
+.page3 {
     height: 30vh;
     width: 100%;
-    /* background-color: rgb(122, 134, 71); */
+    background-color: rgb(122, 134, 71);
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
@@ -215,113 +223,179 @@ main{
     line-height: 30px;
 }
 
-.page3 h1{
+.page3 h1 {
     font-weight: 800;
     font-size: 60px;
     /* background-color: blueviolet; */
     margin-bottom: 40px;
 }
 
-.page3 h1:hover{
+.page3 h1:hover {
     cursor: pointer;
     color: grey;
 }
 
-.motivation{
+.motivation {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
-    
+
 }
 
-.motivation h2{
+.motivation h2 {
     /* background-color: rgb(60, 55, 64); */
     font-size: 25px;
     padding: 10px;
     border-radius: 22px;
     border: 2px solid black;
-    
+
 }
 
-.motivation h2:hover{
+.motivation h2:hover {
     cursor: pointer;
     background-color: rgb(205, 184, 50);
     color: white;
     border: 2px solid white;
 }
 
+/* -------------Owner-------------- */
 
-
-/* <-----------Trainer--------> */
-
-.trainer{
-    padding: 20px;
-    height: 50vh;
+.owner {
+    padding-top: 3.3vw;
+    padding-bottom: 2vw;
+    height: 90vh;
     width: 100%;
-    /* background-color: rgb(61, 61, 61); */
+    background-color: rgb(61, 61, 61);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8vh;
 }
 
-.trainer h1{
+.owner h1 {
     align-items: center;
     font-size: 40px;
 }
 
-.trainer h1:hover{
+.owner-data {
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10vw;
+}
+
+.owner h1:hover {
     cursor: pointer;
     color: gray;
     border-bottom: 2px solid black;
 }
 
-.trainer1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 150px;
+.owner img {
+    height: 450px;
+    width: 320px;
+    padding-top: 20px;
 }
 
-.trainer1 img{
-    height: 250px;
-    width: 400px;
-    padding-top: 20px;
+.owner-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5vw;
+    line-height: 40px;
+}
+
+/* <-----------Trainer--------> */
+
+.trainer {
+    padding: 20px;
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(0, 95, 84);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trainer h1 {
+    align-items: center;
+    font-size: 40px;
+}
+
+.trainer h1:hover {
+    cursor: pointer;
+    color: gray;
+    border-bottom: 2px solid black;
+}
+
+.trainer-data {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20vw;
 }
 
 .trainer1 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
-/* .trainer1 p{
-    font-size: 30px;
-    line-height: 50px;
+.trainer img {
+    height: 450px;
+    width: 450px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.trainer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .trainer2 img{
+    height: 250px;
+    width: 400px;
+    padding-top: 20px;
 } */
+
+.trainer2 i {
+    font-size: 20px;
+}
+
+.trainer-name {
+    font-size: 2.5vw;
+}
+
 
 /* <-----------Gym Tour--------> */
 
-.gymTour{
+.gymTour {
     height: 100%;
     width: 100%;
     background-color: rgb(36, 55, 17);
     padding: 20px;
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.gymTour h1{
+.gymTour h1 {
     font-size: 50px;
     font-weight: 800;
     padding-bottom: 40px;
     padding-top: 40px;
 }
 
-.tour-content{
+.tour-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -329,51 +403,38 @@ main{
     gap: 20px;
 }
 
-.row1{
+.row1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    padding-bottom: 10px;
 }
 
-.row1 img{
-    height:300px;
-    width: 500px;
+.row1 img {
+    height: 300px;
+    width: 40%
 }
 
-.row1 video{
-
+.row1 video {
+    width: 60%;
+    height: auto;
 }
 
-.row2{
+.row3 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
 }
 
-.row2 img{
+.row3 img {
     height: 300px;
     width: 500px;
 }
 
-.row2 video{
-
-}
-
-.row3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;  
-}
-
-.row3 img{
-    height: 300px;
-    width: 500px;
-}
-
-.shorts{
+.shorts {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -382,10 +443,13 @@ main{
 }
 
 .shorts video {
-    width: 20%; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 10px; /* Adjust margin to create space between videos */
-  }
+    width: 20%;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin: 0 10px;
+    /* Adjust margin to create space between videos */
+}
 
 /* <-----------Gallery--------> */
 
@@ -400,7 +464,7 @@ main{
 
 /* <-----------Footer--------> */
 
-.footer{
+.footer {
     height: 45vh;
     width: 100%;
     background-color: black;
@@ -410,10 +474,10 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    
+
 }
 
-.gym-address{
+.gym-address {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -422,58 +486,287 @@ main{
     padding: 40px;
 }
 
-.navigation{
+.navigation {
     display: flex;
     flex-direction: column;
     padding: 20px;
 
 }
 
-.navigation h3{
-    
-}
+.navigation h3 {}
 
-.navigation h3 a{
+.navigation h3 a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     line-height: 30px;
 }
 
-.navigation h3 a:hover{
+.navigation h3 a:hover {
     cursor: pointer;
     color: rgb(189, 183, 2);
 }
 
-.address{
+.address {
     /* background-color: rgb(60, 84, 35); */
     padding: 20px;
 }
 
-.address h1{
+.address h1 {
     font-size: 40px;
 }
 
-.address p{
+.address p {
     font-size: 18px;
     padding-left: 5px;
     font-weight: 600;
 }
 
-.Prince{
-    
-}
+.Prince {}
 
-.Prince h2{
+.Prince h2 {
     word-spacing: 20px;
 }
 
-.Prince h2 a{
+.Prince h2 a {
     text-decoration: none;
     color: rgb(161, 218, 137);
 }
 
-.Prince h2 a:hover{
+.Prince h2 a:hover {
     cursor: pointer;
     color: rgb(185, 111, 0);
+}
+
+
+/* ---------Responsiveness------------- */
+
+/* Default styles for all screen sizes */
+/* Add your default styles here */
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Navbar */
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    main {
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav {
+        height: 60px;
+        width: 100vw;
+        /* background-color: aquamarine; */
+        display: flex;
+        align-items: center;
+        padding-top: 25px;
+    }
+
+    .logo img {
+        margin: 0;
+        padding: 15px;
+    }
+
+    .pages {
+        /* flex-direction: column; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-right: px;
+    }
+
+    .pages li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0;
+        display: none;
+    }
+
+    .pages li a {
+        font-size: 18px;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    /* Page 1 */
+    .page1 {
+        height: 60vh;
+        width: 100vw;
+        text-align: center;
+        line-height: 8vh;
+        background-image: url('https://images.unsplash.com/photo-1528720208104-3d9bd03cc9d4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-position-y: -70px;
+    }
+
+    .page1 h1 {
+        font-size: 6vw;
+        font-weight: 800;
+    }
+
+    .page1 h2 {
+        font-size: 15vw;
+        letter-spacing: 10px;
+    }
+
+    .page1 h3 {
+        font-size: 20px;
+        padding-top: 10vh;
+    }
+
+    /* Page 2 */
+    .page2 {
+        flex-direction: column;
+        width: 100vw;
+        height: 120vh;
+    }
+
+    .welcome-left,
+    .welcome-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .welcome-right h1 {
+        font-size: 40px;
+    }
+
+    .welcome-right p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px;
+    }
+
+    .welcome-right button {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    /* Page 3 */
+    .page3 {
+        padding: 20px;
+        width: 100vw;
+        height: 90vh;
+    }
+
+    .page3 h1 {
+        font-size: 40px;
+    }
+
+    .motivation h2 {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    /*   Owner    */
+    .owner {
+        width: 100vw;
+        height: 170vh;
+    }
+
+    /* Trainer */
+    .trainer {
+        padding: 20px;
+        width: 100vw;
+        height: 120vh;
+    }
+
+    .trainer h1 {
+        font-size: 30px;
+    }
+
+    .trainer1 img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .trainer2 img {
+        height: 300px;
+        width: 300px;
+    }
+
+    /* Gym Tour */
+    .gymTour h1 {
+        font-size: 30px;
+    }
+
+    .tour-content .row1 img,
+    .tour-content .row2 img,
+    .tour-content .row3 img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .tour-content .row1 video,
+    .tour-content .row2 video {
+        width: 100%;
+        height: auto;
+    }
+
+    .shorts {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .shorts video {
+        width: 80%;
+        margin: 10px;
+    }
+
+    /* Footer */
+    .footer {
+        height: auto;
+        padding: 10px;
+    }
+
+    .footer .navigation {
+        display: none;
+    }
+
+    .gym-address {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .address h1 {
+        font-size: 10vw;
+        padding-bottom: 10px;
+    }
+
+    .Prince h2 {
+        word-spacing: 10px;
+        font-size: 14px;
+    }
+
+    .Prince h2 a {
+        color: rgb(203, 179, 0);
+    }
 }

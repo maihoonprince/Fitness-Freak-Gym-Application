@@ -573,6 +573,7 @@ main {
         /* background-color: aquamarine; */
         display: flex;
         align-items: center;
+        justify-content: space-between;
         padding-top: 25px;
     }
 
@@ -587,7 +588,8 @@ main {
         justify-content: center;
         align-items: center;
         gap: 20px;
-        padding-right: px;
+        padding-right: 1px;
+        margin-right: 3vh;
     }
 
     .pages li {
@@ -603,9 +605,9 @@ main {
         font-size: 18px;
     }
 
-    #menu {
+    /* #menu {
         display: block;
-    }
+    } */
 
     /* Page 1 */
     .page1 {
@@ -639,21 +641,42 @@ main {
     .page2 {
         flex-direction: column;
         width: 100vw;
-        height: 120vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1vh;
     }
 
     .welcome-left,
     .welcome-right {
-        width: 100%;
+        width: 100vw;
         text-align: center;
+
     }
 
     .video {
         width: 100%;
+        height: auto;
+        /* background-color: cadetblue */
+    }
+
+    .welcome-right{
+        /* background-color: rgb(2, 44, 30); */
+        padding-top: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding: 2vh;
     }
 
     .welcome-right h1 {
         font-size: 40px;
+        /* background-color: blue; */
+        padding-top: 1vh;
     }
 
     .welcome-right p {
@@ -664,18 +687,39 @@ main {
 
     .welcome-right button {
         font-size: 16px;
-        margin-top: 30px;
+        /* background-color: aqua; */
+        margin-top: 1vh;
+        margin-bottom: 5vh;
     }
 
     /* Page 3 */
     .page3 {
         padding: 20px;
         width: 100vw;
-        height: 90vh;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
     }
 
     .page3 h1 {
-        font-size: 40px;
+        /* background-color: aquamarine; */
+        font-size: 7vh;
+        line-height: 7vh;
+        
+    }
+
+    .motivation{
+        /* background-color: aqua; */
+        padding-top: 1vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3vh;
     }
 
     .motivation h2 {
@@ -686,28 +730,116 @@ main {
     /*   Owner    */
     .owner {
         width: 100vw;
-        height: 170vh;
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+        padding: 2vh 3vh;
+    }
+
+    .owner h1{
+        /* padding-bottom: 1vh; */
+        /* background-color: aquamarine; */
+        gap: 1vh;
+    }
+
+    .owner-data{
+        /* background-color: aqua; */
+        /* padding-top: 1vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1vh;
+    }
+
+    .owner-data img{
+        padding-top: 0;
+        
+    }
+
+    .owner-name{
+        /* background-color: burlywood; */
+        font-size: large;
+    }
+
+    .owner-name h2{
+        color: rgb(235, 180, 0);
+        text-transform:uppercase;
+        letter-spacing: 0.7vh;
+    }
+
+    .owner-name i{
+        /* color: rgb(250, 65, 28); */
+        font-weight: 600;
     }
 
     /* Trainer */
     .trainer {
-        padding: 20px;
         width: 100vw;
         height: 120vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1vh;
+        background-color: rgb(90, 90, 90);
     }
 
     .trainer h1 {
-        font-size: 30px;
+        font-size: 6vh;
+        /* background-color: aqua; */
+        padding-top: 1vh;
+        /* padding-bottom: 3vh; */
+    }
+
+    .trainer-data{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1vh;
+        /* background-color: aqua; */
+    }
+
+    .trainer1{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .trainer h2{
+        font-size: 3.5vh;
+        text-transform: uppercase;
+        color: rgb(235, 180, 0);
+        letter-spacing: 1vh;
+    }
+
+    .trainer i{
+        font-size: 2.5vh;
+        font-weight: 600;
+        
     }
 
     .trainer1 img {
         height: 300px;
-        width: 300px;
+        width: 250px;
+    }
+
+    .trainer2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1vh;
+    }
+
+    .trainer2 h2{
+
     }
 
     .trainer2 img {
         height: 300px;
-        width: 300px;
+        width: 250px;
     }
 
     /* Gym Tour */
